@@ -1,0 +1,21 @@
+body {
+  font-family: 'Shippori Mincho', serif;
+  text-align : center;
+}
+.main img {
+  width : 70%;
+  vertical-align: middle;
+}
+.navi {
+  text-align: center;
+}
+button {
+  margin: 10px auto;
+  font-size: 24px;
+}
+.title {
+  font-size: xx-large;
+}
+.thumbnails .selected {
+  opacity: 1.0;
+}

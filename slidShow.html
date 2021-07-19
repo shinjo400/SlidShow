@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c3790262a3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="title">
+      陸上男子100m日本記録保持者のスライドショー~1993年以降~
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()"><i class="fa-solid fa-left"></i></button>
+      <img src="https://www.jaaf.or.jp/fan/player/img/men019/1.jpg">
+      <button type="button" onclick="right()"><i class="fa-solid fa-right"></i></button>
+    </div>
+    <div class="control">
+      <button onclick="play()"><i class="fa-solid fa-play"></i></button>
+      <button onclick="stop()"><i class="fa-solid fa-pause"></i></button>
+      <button onclick="reset()"><i class="fa-solid fa-stop"></i></button>
+    </div>
+    <script src="slidShow.js">
+    </script>
+  </body>
+</html>
